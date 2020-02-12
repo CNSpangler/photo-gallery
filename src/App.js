@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header />
-      <ImageList imageData = {images.length} />
+      <ImageList imageData = {images} />
     </div>
   );
 }

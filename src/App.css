@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+image {
+  max-width: 100px;
+}
+
+li {
+  max-width: 20%;
+  float: left;
+  border: solid 3px black;
+  margin: 5px;
 }

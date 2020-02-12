@@ -27,11 +27,11 @@ App.test.js
 Header.test.js
 Time to git ACP!
  -->
-3. Create ImageItem Children in ImageList
+<!-- 3. Create ImageItem Children in ImageList
 ImageList.js
 Map over this.props.images and create/render and ImageItem for each image in the array.
 
-Time to git ACP!
+Time to git ACP! -->
 
 4. Filter Images
 App.js

@@ -5,11 +5,17 @@ import ImageItem from './ImageItem.js';
 
 export default class ImageList extends Component {
     render() {
-        return(
-            <ul>
-                <li>There are {this.props.imageData} images</li>
-                {/* <ImageItem /> */}
-            </ul>
-        )
+        return <ul>
+            {this.props.imageData.map((image => 
+                <ImageItem 
+                    imageTitle = {image.title}
+                    imageSource = {image.url}
+                    imageKeyword = {image.keyword}
+                    imageHorns = {image.horns}
+                    imageDescription = {image.description}
+                />)
+                )
+            }
+        </ul>
     }
-};
+}
