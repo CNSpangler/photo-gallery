@@ -17,7 +17,7 @@ ImageItem.js - image item component -->
 <!-- Build out basic tree of app, starting at top and working down. The App component should introduce the image list data, passing as a prop to ImageList.
  -->
 <!-- Initially, ImageList component can just show count of images so you know it is receiving the data via props. -->
-
+<!-- 
 Time to git ACP!
 
 Write as snapshot test for your components
@@ -26,7 +26,7 @@ ImageList.test.js
 App.test.js
 Header.test.js
 Time to git ACP!
-
+ -->
 3. Create ImageItem Children in ImageList
 ImageList.js
 Map over this.props.images and create/render and ImageItem for each image in the array.
