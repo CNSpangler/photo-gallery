@@ -7,7 +7,8 @@ export default class ImageList extends Component {
     render() {
         return(
             <ul>
-
+                <li>There are {this.props.imageData} images</li>
+                {/* <ImageItem /> */}
             </ul>
         )
     }
