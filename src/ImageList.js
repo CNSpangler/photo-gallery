@@ -10,8 +10,7 @@ export default class ImageList extends Component {
                     imageSource = {image.url}
                     imageKeyword = {image.keyword}
                     imageHorns = {image.horns}
-                    imageDescription = {image.description}
-                />)
+                    imageDescription = {image.description}/>)
                 )
             }
         </ul>
