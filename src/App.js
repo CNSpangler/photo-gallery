@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import request from 'superagent';
 import './App.css';
 import Header from './Header.js';
 import ImageList from './ImageList.js';
 import images from './images.js';
-import { render } from '@testing-library/react';
 
 export default class App extends Component {
   state = { selected: null };
@@ -19,16 +17,15 @@ export default class App extends Component {
       return image.keyword === this.state.selected;
     });
     
-    // const hornsFilter = images.filter(image => {
-    //   if(!this.state.selected) return true;
-    //   const state = parseInt(this.state.selected)
-    //   return image.horns === state;
-    // });
+    const hornsFilter = images.filter(image => {
+      if(!this.state.selected) return true;
+      const state = parseInt(this.state.selected)
+      return image.horns === state;
+    });
     
     return (
       <div>
         <Header />
-        {JSON.stringify(this.state.data)}
         <select className="unicornFilter" onChange={handleChange}>
           <option value='' defaultValue>All</option>
           <option value='narwhal'>Narwhal</option>
@@ -43,7 +40,15 @@ export default class App extends Component {
           <option value='lizard'>Lizard</option>
           <option value='dragon'>Dragon</option>
         </select>
+        <select className="hornsFilter" onChange={handleChange}>
+          <option value='' defaultValue>All Creatures</option>
+          <option value='1'>One Horn</option>
+          <option value='2'>Two Horns</option>
+          <option value='3'>Three Horns</option>
+          <option value='100'>ONE HUNDRED HORNS</option>
+        </select>
         <ImageList imageData = {keywordFilter} />
+        <ImageList imageData = {hornsFilter} />
       </div>
     );
   }
