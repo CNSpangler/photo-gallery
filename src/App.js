@@ -22,12 +22,17 @@ export default class App extends Component {
       const state = parseInt(this.state.selected)
       return image.horns === state;
     });
+
+    const babyFilter = images.filter(image => {
+      if(!this.state.selected) return true;
+      return image.title.startsWith('Baby' || 'baby');
+    })
     
     return (
       <div>
         <Header />
         <select className="unicornFilter" onChange={handleChange}>
-          <option value='' defaultValue>All</option>
+          <option value='' defaultValue>All Creatures</option>
           <option value='narwhal'>Narwhal</option>
           <option value='rhino'>Rhino</option>
           <option value='unicorn'>Unicorn</option>
@@ -47,8 +52,13 @@ export default class App extends Component {
           <option value='3'>Three Horns</option>
           <option value='100'>ONE HUNDRED HORNS</option>
         </select>
+        <select className="babyFilter" onChange={handleChange}>
+          <option value='' defaultValue>All Creatures</option>
+          <option value='baby'>Baby Creatures</option>
+        </select>
         <ImageList imageData = {keywordFilter} />
         <ImageList imageData = {hornsFilter} />
+        <ImageList imageData = {babyFilter} />
       </div>
     );
   }

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  id="li-div"
+>
+  <li>
+    <h3 />
+    <img />
+    <h4>
+      This creature has 
+       horn(s)!
+    </h4>
+  </li>
+</div>
+`;

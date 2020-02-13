@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from './App.js';
+import ImageList from './ImageList.js';
 
 it('renders correctly', () => {
     const tree = renderer
-        .create(<App />)
+        .create(<ImageList />)
         .toJSON();
         expect(tree).toMatchSnapshot();
 });

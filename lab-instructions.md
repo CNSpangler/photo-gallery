@@ -32,7 +32,7 @@ ImageList.js
 Map over this.props.images and create/render and ImageItem for each image in the array.
 
 Time to git ACP! -->
-
+<!-- 
 4. Filter Images
 App.js
 In the render method of App.js, filter through the image data, based on the current state of a dropdown. This dropdown allows users to filter by keyword.
@@ -40,7 +40,7 @@ In the render method of App.js, filter through the image data, based on the curr
 Time to git ACP!
 
 STRETCH: Add second filter for number of horns.
-This state will need to be tracked separately. Add more data points and more filters for more, more, more points (up to 3)
+This state will need to be tracked separately. Add more data points and more filters for more, more, more points (up to 3) -->
 
 STRETCH: Derive Keywords from Data
 When filtering, derive unique keywords from the data and use that to create the select options using a .map operation on the unique list of keywords. (hint: Object.keys will give you a list of all the keys).

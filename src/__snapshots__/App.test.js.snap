@@ -1,0 +1,832 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <header>
+    <h1>
+      Care and Feeding of Horned Creatures!
+    </h1>
+  </header>
+  <select
+    className="unicornFilter"
+    onChange={[Function]}
+  >
+    <option
+      defaultValue={true}
+      value=""
+    >
+      All
+    </option>
+    <option
+      value="narwhal"
+    >
+      Narwhal
+    </option>
+    <option
+      value="rhino"
+    >
+      Rhino
+    </option>
+    <option
+      value="unicorn"
+    >
+      Unicorn
+    </option>
+    <option
+      value="unilego"
+    >
+      Unilego
+    </option>
+    <option
+      value="triceratops"
+    >
+      Triceratops
+    </option>
+    <option
+      value="markhor"
+    >
+      Markhor
+    </option>
+    <option
+      value="mouflon"
+    >
+      Mouflon
+    </option>
+    <option
+      value="addax"
+    >
+      Addax
+    </option>
+    <option
+      value="chameleon"
+    >
+      Chameleon
+    </option>
+    <option
+      value="lizard"
+    >
+      Lizard
+    </option>
+    <option
+      value="dragon"
+    >
+      Dragon
+    </option>
+  </select>
+  <select
+    className="hornsFilter"
+    onChange={[Function]}
+  >
+    <option
+      defaultValue={true}
+      value=""
+    >
+      All Creatures
+    </option>
+    <option
+      value="1"
+    >
+      One Horn
+    </option>
+    <option
+      value="2"
+    >
+      Two Horns
+    </option>
+    <option
+      value="3"
+    >
+      Three Horns
+    </option>
+    <option
+      value="100"
+    >
+      ONE HUNDRED HORNS
+    </option>
+  </select>
+  <ul>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          UniWhal
+        </h3>
+        <img
+          alt="A unicorn and a narwhal nuzzling their horns"
+          src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Rhino Family
+        </h3>
+        <img
+          alt="Mother (or father) rhino with two babies"
+          src="http://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Unicorn Head
+        </h3>
+        <img
+          alt="Someone wearing a creepy unicorn head mask"
+          src="http://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          UniLego
+        </h3>
+        <img
+          alt="Lego figurine dressed in a unicorn outfit"
+          src="http://images.unsplash.com/photo-1518946222227-364f22132616?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4836a6fca62e7dce9324346bacfde085&auto=format&fit=crop&w=2534&q=80"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Basically a unicorn
+        </h3>
+        <img
+          alt="A narwhal is basically a unicorn after all, right?"
+          src="http://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          #truth
+        </h3>
+        <img
+          alt="The truth behind narwhals"
+          src="http://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby Rhino
+        </h3>
+        <img
+          alt="This is actually a figurine but it looks kinda real"
+          src="http://secure.img1-ag.wfcdn.com/im/17007094/resize-h800%5Ecompr-r85/3589/35892451/Baby+Rhino+Figurine.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Cera
+        </h3>
+        <img
+          alt="Three horns but still, horns. And who doesn't like The Land Before Time?"
+          src="http://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003"
+        />
+        <h4>
+          This creature has 
+          3
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Narwhal costume
+        </h3>
+        <img
+          alt="A woman wearing a blue narwhal costume"
+          src="http://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Rhino costume
+        </h3>
+        <img
+          alt="Mascots have to get their costumes somewhere"
+          src="http://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Believe
+        </h3>
+        <img
+          alt="I believe in unicorns, do you?"
+          src="http://www.tinselbox.com/wp-content/uploads/2018/03/I-BELIEVE-IN-UNICORNS-FREE-PRINTABLE-WATERCOLOR-7-of-1.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Markhor
+        </h3>
+        <img
+          alt="These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?"
+          src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby markhor
+        </h3>
+        <img
+          alt="Even the babies are adorable"
+          src="http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Mouflon
+        </h3>
+        <img
+          alt="Those horns though"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Addax
+        </h3>
+        <img
+          alt="This guy is basically extinct but survives well in captivity, so they're frequently found in zoos"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby mouflon
+        </h3>
+        <img
+          alt="The cuteness that is a baby mouflon asleep"
+          src="http://cbsnews3.cbsistatic.com/hub/i/r/2013/03/05/5b414225-a645-11e2-a3f0-029118418759/thumbnail/620x350/2d4cf24685b45c22912e64d2004fec8d/Baby_Mouflon_Wild_Sheep.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Happy Jackson's Chameleon
+        </h3>
+        <img
+          alt="These are really common in Hawaii"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Serious Jackson's Chameleon
+        </h3>
+        <img
+          alt="This one is very serious."
+          src="http://imgc.allpostersimages.com/img/print/posters/dlillc-jackson-s-chameleon_a-G-13448768-14258384.jpg"
+        />
+        <h4>
+          This creature has 
+          3
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Horned Lizard
+        </h3>
+        <img
+          alt="Fave food: ants"
+          src="http://www.nps.gov/band/learn/nature/images/short-horned-lizard-open-mouth-18.jpg?maxwidth=650&autorotate=false"
+        />
+        <h4>
+          This creature has 
+          100
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Smaug
+        </h3>
+        <img
+          alt="Fan illustration of Smaug from 'The Hobbit'"
+          src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg"
+        />
+        <h4>
+          This creature has 
+          100
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+  </ul>
+  <ul>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          UniWhal
+        </h3>
+        <img
+          alt="A unicorn and a narwhal nuzzling their horns"
+          src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Rhino Family
+        </h3>
+        <img
+          alt="Mother (or father) rhino with two babies"
+          src="http://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Unicorn Head
+        </h3>
+        <img
+          alt="Someone wearing a creepy unicorn head mask"
+          src="http://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          UniLego
+        </h3>
+        <img
+          alt="Lego figurine dressed in a unicorn outfit"
+          src="http://images.unsplash.com/photo-1518946222227-364f22132616?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4836a6fca62e7dce9324346bacfde085&auto=format&fit=crop&w=2534&q=80"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Basically a unicorn
+        </h3>
+        <img
+          alt="A narwhal is basically a unicorn after all, right?"
+          src="http://i.pinimg.com/736x/b4/61/06/b46106830b841017ea59870b27ec18dc--narwhals-a-unicorn.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          #truth
+        </h3>
+        <img
+          alt="The truth behind narwhals"
+          src="http://i.pinimg.com/originals/16/cf/2a/16cf2a0b3fd51b9bee08bb6296193b75.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby Rhino
+        </h3>
+        <img
+          alt="This is actually a figurine but it looks kinda real"
+          src="http://secure.img1-ag.wfcdn.com/im/17007094/resize-h800%5Ecompr-r85/3589/35892451/Baby+Rhino+Figurine.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Cera
+        </h3>
+        <img
+          alt="Three horns but still, horns. And who doesn't like The Land Before Time?"
+          src="http://vignette.wikia.nocookie.net/landbeforetime/images/c/c3/Cera_infobox.png/revision/latest?cb=20180422005003"
+        />
+        <h4>
+          This creature has 
+          3
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Narwhal costume
+        </h3>
+        <img
+          alt="A woman wearing a blue narwhal costume"
+          src="http://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Rhino costume
+        </h3>
+        <img
+          alt="Mascots have to get their costumes somewhere"
+          src="http://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Believe
+        </h3>
+        <img
+          alt="I believe in unicorns, do you?"
+          src="http://www.tinselbox.com/wp-content/uploads/2018/03/I-BELIEVE-IN-UNICORNS-FREE-PRINTABLE-WATERCOLOR-7-of-1.jpg"
+        />
+        <h4>
+          This creature has 
+          1
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Markhor
+        </h3>
+        <img
+          alt="These wild goats eat snakes, then secrete a foam that locals fight over for the antivenom properties -- how cool is that?"
+          src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby markhor
+        </h3>
+        <img
+          alt="Even the babies are adorable"
+          src="http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Mouflon
+        </h3>
+        <img
+          alt="Those horns though"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Addax
+        </h3>
+        <img
+          alt="This guy is basically extinct but survives well in captivity, so they're frequently found in zoos"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Baby mouflon
+        </h3>
+        <img
+          alt="The cuteness that is a baby mouflon asleep"
+          src="http://cbsnews3.cbsistatic.com/hub/i/r/2013/03/05/5b414225-a645-11e2-a3f0-029118418759/thumbnail/620x350/2d4cf24685b45c22912e64d2004fec8d/Baby_Mouflon_Wild_Sheep.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Happy Jackson's Chameleon
+        </h3>
+        <img
+          alt="These are really common in Hawaii"
+          src="http://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg"
+        />
+        <h4>
+          This creature has 
+          2
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Serious Jackson's Chameleon
+        </h3>
+        <img
+          alt="This one is very serious."
+          src="http://imgc.allpostersimages.com/img/print/posters/dlillc-jackson-s-chameleon_a-G-13448768-14258384.jpg"
+        />
+        <h4>
+          This creature has 
+          3
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Horned Lizard
+        </h3>
+        <img
+          alt="Fave food: ants"
+          src="http://www.nps.gov/band/learn/nature/images/short-horned-lizard-open-mouth-18.jpg?maxwidth=650&autorotate=false"
+        />
+        <h4>
+          This creature has 
+          100
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+    <div
+      id="li-div"
+    >
+      <li>
+        <h3>
+          Smaug
+        </h3>
+        <img
+          alt="Fan illustration of Smaug from 'The Hobbit'"
+          src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/290px-Smaug_par_David_Demaret.jpg"
+        />
+        <h4>
+          This creature has 
+          100
+           horn(s)!
+        </h4>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
